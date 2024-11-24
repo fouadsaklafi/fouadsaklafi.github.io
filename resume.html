@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Fouad Saklafi</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9fc;
+            color: #333;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Header section */
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #007BFF, #0056b3);
+            color: white;
+        }
+
+        .header img {
+            border-radius: 50%;
+            height: 120px;
+            width: 120px;
+            margin-right: 20px;
+            border: 3px solid white;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .header h2 {
+            margin: 5px 0 0;
+            font-size: 18px;
+            color: #ddd;
+        }
+
+        /* Section */
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section h3 {
+            margin-bottom: 15px;
+            color: #0056b3;
+            border-left: 5px solid #007BFF;
+            padding-left: 10px;
+        }
+
+        .info {
+            line-height: 1.8;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #007BFF;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Skills grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skills-grid div {
+            padding: 15px;
+            background: #f4f9fc;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <img src="profile-picture.jpg" alt="Fouad Saklafi">
+            <div>
+                <h1>Fouad Saklafi</h1>
+                <h2>Administrateur Systèmes et Réseaux</h2>
+            </div>
+        </div>
+        
+        <!-- Personal Information -->
+        <div class="section">
+            <h3>Information Personnelle</h3>
+            <p class="info">
+                <strong>Email:</strong> fouad.saklafi10@gmail.com<br>
+                <strong>Téléphone:</strong> +212690319780<br>
+                <strong>Nationalité:</strong> Marocain<br>
+                <strong>Adresse:</strong> Bir Rami Oulad Moussa, Kenitra<br>
+                <strong>Permis:</strong> B
+            </p>
+        </div>
+
+        <!-- Profile -->
+        <div class="section">
+            <h3>Profil</h3>
+            <p>Informaticien créatif et expérimenté, dévoué à l'installation et à la configuration du réseau, avec des connaissances en soft skills.</p>
+        </div>
+
+        <!-- Languages -->
+        <div class="section">
+            <h3>Langues</h3>
+            <ul>
+                <li>Français: Intermédiaire</li>
+                <li>Anglais: Bien</li>
+                <li>Arabe: Très bon</li>
+            </ul>
+        </div>
+
+        <!-- Competences -->
+        <div class="section">
+            <h3>Compétences</h3>
+            <ul>
+                <li>Dynamique</li>
+                <li>Polyvalence</li>
+                <li>Capacité d’adaptation</li>
+                <li>Logique</li>
+                <li>Esprit d’équipe</li>
+            </ul>
+        </div>
+
+        <!-- Interests -->
+        <div class="section">
+            <h3>Centres d’Intérêt</h3>
+            <ul>
+                <li>Lecture</li>
+                <li>Voyages</li>
+                <li>Activités sportives</li>
+                <li>Design graphique</li>
+            </ul>
+        </div>
+
+        <!-- Experiences -->
+        <div class="section">
+            <h3>Expériences Professionnelles</h3>
+            <ul>
+                <li><strong>Technicien</strong> chez Together Technology (Nov 2023 - Présent)</li>
+                <li><strong>Stage</strong> chez ITpourTous (Déc 2022 - Mars 2023)</li>
+                <!-- Add more experiences -->
+            </ul>
+        </div>
+
+        <!-- Diplomas -->
+        <div class="section">
+            <h3>Diplômes Obtenus</h3>
+            <ul>
+                <li>Technicien Spécialisé en Administrateur Système et Réseau (2020-2022)</li>
+                <li>Baccalauréat Scientifique, Lycée Taha Houssein (2018-2019)</li>
+            </ul>
+        </div>
+
+        <!-- Trainings -->
+        <div class="section">
+            <h3>Formations</h3>
+            <ul>
+                <li>Google IT Support (2024)</li>
+                <li>Preparation for CompTIA A+ (2024)</li>
+                <li>Healthcare IT Support (2024)</li>
+                <!-- Add more trainings -->
+            </ul>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <h3>Compétences Techniques</h3>
+            <div class="skills-grid">
+                <div>Maintenance et gestion des systèmes informatiques</div>
+                <div>Installation des réseaux</div>
+                <div>Virtualisation VMware, Hyper-V</div>
+                <div>Sécurité informatique</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2024 Fouad Saklafi - CV
+    </div>
+</body>
+</html>
