@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +16,7 @@
         }
 
         a {
-            color: #007BFF;
+            color: #050200;
             text-decoration: none;
         }
 
@@ -38,7 +39,7 @@
             display: flex;
             align-items: center;
             padding: 20px;
-            background: linear-gradient(135deg, #007BFF, #0056b3);
+            background: linear-gradient(135deg, #060301, #050200);
             color: white;
         }
 
@@ -73,8 +74,7 @@
 
         .section h3 {
             margin-bottom: 15px;
-            color: #0056b3;
-            border-left: 5px solid #007BFF;
+            color: #1d1c1c;
             padding-left: 10px;
         }
 
@@ -95,7 +95,7 @@
 
         ul li::before {
             content: "•";
-            color: #007BFF;
+            color: #1d1c1c;
             position: absolute;
             left: 0;
         }
@@ -116,16 +116,27 @@
             font-weight: bold;
             color: #333;
         }
-
+        .image-icon{
+            height: 30px;
+            width: 30px;
+            margin-top: 14px;
+        }
+        .titicon{
+            display: flex;
+            justify-content: left;
+        }
         /* Footer */
         .footer {
             text-align: center;
             padding: 20px;
-            background-color: #007BFF;
+            background-color: #050200;
             color: white;
         }
+
+       
     </style>
 </head>
+
 <body>
     <div class="container">
         <!-- Header -->
@@ -136,10 +147,14 @@
                 <h2>Administrateur Systèmes et Réseaux</h2>
             </div>
         </div>
-        
+
         <!-- Personal Information -->
         <div class="section">
-            <h3>Information Personnelle</h3>
+            
+                <div class="titicon">
+                    <img class="image-icon" src="./profil-de-lutilisateur.png" alt="icon" srcset="">
+                    <h3>Information Personnelle</h3>
+                </div>
             <p class="info">
                 <strong>Email:</strong> fouad.saklafi10@gmail.com<br>
                 <strong>Téléphone:</strong> +212690319780<br>
@@ -151,13 +166,20 @@
 
         <!-- Profile -->
         <div class="section">
-            <h3>Profil</h3>
-            <p>Informaticien créatif et expérimenté, dévoué à l'installation et à la configuration du réseau, avec des connaissances en soft skills.</p>
+            <div class="titicon">
+                <img class="image-icon" src="./account_17740774.png" alt="icon" srcset="">
+                <h3>Profil</h3>
+            </div>
+            <p>Informaticien créatif et expérimenté, dévoué à l'installation et à la configuration du réseau, avec des
+                connaissances en soft skills.</p>
         </div>
 
         <!-- Languages -->
         <div class="section">
+            <div class="titicon">
+                <img class="image-icon" src="./language.png" alt="icon" srcset="">
             <h3>Langues</h3>
+            </div>
             <ul>
                 <li>Français: Intermédiaire</li>
                 <li>Anglais: Bien</li>
@@ -167,7 +189,10 @@
 
         <!-- Competences -->
         <div class="section">
+            <div class="titicon">
+                <img class="image-icon" src="./competency.png" alt="icon" srcset="">
             <h3>Compétences</h3>
+            </div>
             <ul>
                 <li>Dynamique</li>
                 <li>Polyvalence</li>
@@ -179,7 +204,9 @@
 
         <!-- Interests -->
         <div class="section">
-            <h3>Centres d’Intérêt</h3>
+            <div class="titicon">
+                <img class="image-icon" src="./hobbies.png" alt="icon" srcset="">
+            <h3>Centres d’Intérêt</h3></div>
             <ul>
                 <li>Lecture</li>
                 <li>Voyages</li>
@@ -190,37 +217,112 @@
 
         <!-- Experiences -->
         <div class="section">
-            <h3>Expériences Professionnelles</h3>
+            <div class="titicon">
+                <img class="image-icon" src="./suitcase.png" alt="icon" srcset="">
+            <h3>Expériences Professionnelles</h3></div>
             <ul>
-                <li><strong>Technicien</strong> chez Together Technology (Nov 2023 - Présent)</li>
-                <li><strong>Stage</strong> chez ITpourTous (Déc 2022 - Mars 2023)</li>
+                <h4>Travail à la société Together Technology, Kenitra</h4>
+                <li>Technicien en maintenance informatique</li>
+                <li>Installation et configuration des matériels et logiciels liés aux serveurs informatiques</li>
+                <p>Date: 01/11/2023 PRESENT</p>
                 <!-- Add more experiences -->
+                <h4>Internship at Together Technology, Kenitra
+                </h4>
+                <li> Diagnostiquer et résoudre les problèmes matériels et logiciels sur les équipements informatiques
+                </li>
+                <li>Installer, configurer et mettre à jour les systèmes d'exploitation et les logiciels</li>
+                <li>Configurer les réseaux informatiques et assurer leur bon fonctionnement</li>
+                <li>Effectuer des sauvegardes et restaurations de données</li>
+                <li> Assurer la sécurité des équipements et des données informatiques </li>
+                <li> Configuration et maintenance des caméras de surveillance et des imprimantes</li>
+                <p>Date: 01/08/2023 - 30/10/2023</p>
+                <!-- Add more experiences -->
+                <h4>Stage a la société ITPOURTOUS, Rabat</h4>
+                <li> Configuration et installation de routeurs, commutateurs et points d'accès sans fil</li>
+                <li>Maintenance et dépannage des réseaux d'entreprise</li>
+                <li>Mise en place des mesures de sécurité (vlan, filtrage etc.) Conception de réseaux et documentation
+                </li>
+                <li>Assistance aux membres du personnel</li>
+                <p>Date: 02/12/2022-02/03/2023</p>
+                <!-- Add more experiences -->
+                <h4>Stage a la société KENITROC, Kenitra
+                </h4>
+                <li> Réparation hardware et software des ordinateurs bureau et portable</li>
+                <li>Configuration des switch et routeur cisco,HP..01/03/2022-30/04/2022 (2mois)</li>
+                <li>Configuration et réparation photocopieur imprimante et fax
+                </li>
+                <li>Commercial des matériel informatique</li>
+                <li>câblage réseau</li>
+                <p>Date: 04/11/2022-04/02/2023 (3mois)
+                </p>
+                <!-- Add more experiences -->
+                <h4>Stage a la société EVASYS LOCATION, Kenitra
+                </h4>
+                <li> Développer un site Web de location
+                </li>
+                <li>Virtualisation dans la VM esxi 6.0
+                </li>
+                <li>Installation du réseu local
+                </li>
+                <p>Date: 01/07/2021-30/08/2021 (3mois)
+                </p>
+                <!-- Add more experiences -->
+                <h4>Stage dans Cour d'appel, Kenitra
+                </h4>
+                <li> maintenance Hardware et software des machines informatiques
+                </li>
+                <li>création d'un site web de gestion
+                </li>
+                <p>Date: 01/07/2021-30/08/2021
+                </p>
+
+
+
+
             </ul>
         </div>
 
         <!-- Diplomas -->
         <div class="section">
-            <h3>Diplômes Obtenus</h3>
+            <div class="titicon">
+                <img class="image-icon" src="./diploma.png" alt="icon" srcset="">
+
+            <h3>Diplômes Obtenus</h3></div>
             <ul>
                 <li>Technicien Spécialisé en Administrateur Système et Réseau (2020-2022)</li>
                 <li>Baccalauréat Scientifique, Lycée Taha Houssein (2018-2019)</li>
             </ul>
         </div>
-
-        <!-- Trainings -->
+        <!-- FORMATIONS -->
         <div class="section">
-            <h3>Formations</h3>
+            <div class="titicon">
+                <img class="image-icon" src="./checklist.png" alt="icon" srcset="">
+            <h3>FORMATIONS OBTENUS</h3></div>
             <ul>
-                <li>Google IT Support (2024)</li>
-                <li>Preparation for CompTIA A+ (2024)</li>
-                <li>Healthcare IT Support (2024)</li>
-                <!-- Add more trainings -->
+                <li><span>Google IT Support</span> <strong><span class="year">2024</span></strong></li>
+                <p>Formation certifiée en ligne sur coursera</p>
+                <li><span>Preparation for CompTIA A+</span> <strong><span class="year">2024</span></strong></li>
+                <p>Formation certifiée en ligne sur coursera</p>
+                <li><span>Healthcare IT Support 2024</span> <strong> <span class="year">2024</span> </strong></li>
+                <p>Formation certifiée en ligne sur coursera</p>
+                <li><span>Cisco Networking</span> <strong><span class="year">2024</span> </strong></li>
+                <p>Formation certifiée en ligne sur coursera</p>
+                <li><span>Google Project Management</span> <strong> <span class="year">2024</span> </strong></li>
+                <p>Formation certifiée en ligne sur coursera</p>
+                <li><span>ATTÉSTATION EN CCNA 200-301 & CCNP ENCOR 350-401</span> <strong><span
+                            class="year">2023</span></strong></li>
+                            <p>Centre de formation IT POUR TOUS, Rabat</p>
+                <li><span>Membre (Junior Talent Club Kénitra), en techniques de recherche d'emploi et skillsbuild IBM en
+                        ligne Soft Skills</span> <strong><span class="year">2022</span></strong></li>
+                        <p>Fondation marocaine de l'éducation pour l'emploi (EFE) maroc kenitra</p>
             </ul>
         </div>
-
         <!-- Technical Skills -->
         <div class="section">
-            <h3>Compétences Techniques</h3>
+            <div class="titicon">
+                <img class="image-icon" src="./problem-solving-skills.png" alt="icon" srcset="">
+
+            <h3>Compétences Techniques</h3></div>
             <div class="skills-grid">
                 <div>Maintenance et gestion des systèmes informatiques</div>
                 <div>Installation des réseaux</div>
@@ -235,4 +337,5 @@
         © 2024 Fouad Saklafi - CV
     </div>
 </body>
+
 </html>
